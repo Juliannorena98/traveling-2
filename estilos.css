@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Amaranth', sans-serif;
+}
+.miTexto {
+   font-size: 80xp;
+   color: rgba(255, 255, 255, 0.884);
+    }
+
+    h1 {
+        color:  rgba(240, 216, 216, 0.918);
+    }
+  
+
+
+.content {
+    font-size: 30px;
+    }
+    
+ 
+#titulos { 
+    background-color: rgb(36, 36, 36);
+    border: 2px solid white ;
+    border-radius: 15px;
+    width: 65vw;
+    margin: auto;
+    padding: 5em;
+    margin-top: 1em;  
+    
+       
+        }
+
+.cards {
+    width: fit-content;
+    padding: 1em;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border: 2px solid rgba(247, 247, 247, 0.315);
+    border-radius: 15px;
+    transition: 1s;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Opcional: centra horizontalmente las imágenes */
+    position: relative;
+    text-align: center;
+}
+
+.cards img {
+    border-radius: 15px; /* Igualar el valor de redondeo al del contenedor */
+}
+.cards:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+#cards-container {
+    background-color: rgb(37, 37, 37);
+    border: 2px solid rgba(247, 247, 247, 0.658);
+    width: 85vw; /* Ancho del contenedor al 85% del ancho de la ventana */
+    margin: auto;  /* Centra el contenedor horizontalmente en la ventana */
+    margin-top: 2em;  /* Agrega espacio en la parte superior del contenedor */
+    border-radius: 15px;  /* Esquinas redondeadas del contenedor */
+    padding: 2em;  /* Espacio interno alrededor del contenido del contenedor */
+    flex-direction: row;  /* Dirección de diseño de los elementos secundarios como fila */
+    justify-content: space-between;  /* Distribuye el espacio entre los elementos secundarios */
+    display: flex;  /* Convierte el contenedor en un contenedor flexible */
+    justify-content: center; /* Centra los elementos secundarios a lo largo del eje principal (sobrescribe justify-content: space-between) */
+    margin-bottom: 2em;
+    
+}
+
+.fondo {
+    background-color: rgb(173, 173, 173);
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.644);
+}
+
+#vuelos {
+    color: black ;
+}
+
+#destino {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    padding: 5px; /* Agrega espacio interno para mejorar la apariencia */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    border-radius: 15px;
+}
+
+   #cards-container2 {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(247, 247, 247, 0.658);
+    width: 85vw; /* Ancho del contenedor al 85% del ancho de la ventana */
+    margin: auto;  /* Centra el contenedor horizontalmente en la ventana */
+    margin-top: 2em;  /* Agrega espacio en la parte superior del contenedor */
+    border-radius: 15px;  /* Esquinas redondeadas del contenedor */
+    padding: 2em;  /* Espacio interno alrededor del contenido del contenedor */
+    flex-direction: row;  /* Dirección de diseño de los elementos secundarios como fila */
+    justify-content: space-between;  /* Distribuye el espacio entre los elementos secundarios */
+    display: flex;  /* Convierte el contenedor en un contenedor flexible */
+    justify-content: center; /* Centra los elementos secundarios a lo largo del eje principal (sobrescribe justify-content: space-between) */
+    margin-bottom: 2em;
+
+
+   }
+
+   .small-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    width: 400px;
+    height: 150px;
+    background-color: #e0e0e0;
+    margin: 10px;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+   }   
+
+
+   .small-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre completamente el contenedor */
+    border-radius: 15px; /* Aplica el mismo redondeo de bordes que el contenedor */
+    margin-left: 5,4px;
+}
+
+
+.texto-imagenMini {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+
+    
+}
+
+.texto-imagenGrande { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    }
